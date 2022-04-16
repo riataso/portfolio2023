@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+.App{
+  width: 100%;
+  height: 100vh;
+  font-size: 18px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: black;
+  color: goldenrod;
+  /*position: fixed; */
+  width: 100%;
+  z-index: 10;
+  height: 90px;
 }
 
-.App-link {
-  color: #61dafb;
+header .title h3{
+  font-size: 30px;
+  font-family: 'Cormorant Garamond', serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav ul {
+  margin: 0;
+  padding: 0;
 }
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: goldenrod;
+  transition: all 0.2s;
+}
+
+nav ul li a:hover {
+  color: darkmagenta;
+}
+
+.hero {
+  background-image: url("./Images/23120760_l.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+
+  z-index: 1;
+}
+.hero::after {
+  content: "";
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+  background-color: rgba(37,39,71, 0.7);
+  z-index: -1;
+}
+
+.hero h1,p{
+  padding-top: 30px;
+  margin-top: 100px;
+}
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+ .display-4 {
+  font: weight 700px; ;
+}
+
+
+img {
+  width: 300px;
+  height: 500px;
+}
+
+.container {
+  height: 100vh;
+  padding: 120px;
+}
+
+
+
+.service {
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+#askill img {
+  object-fit: cover;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  height: 300px;
+ }
+
+ .col-img{
+  background-image: url("./Images/main.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+
