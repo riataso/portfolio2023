@@ -3,14 +3,13 @@
   height: 100vh;
   font-size: 18px;
 }
-
+/*HeaderComponent*/
 header{
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: black;
-  color: goldenrod;
-  /*position: fixed; */
+  color: goldenrod; 
   width: 100%;
   z-index: 10;
   height: 90px;
@@ -41,7 +40,7 @@ nav ul li a{
 nav ul li a:hover {
   color: darkmagenta;
 }
-
+/*HomeComponent*/
 .hero {
   background-image: url("./Images/23120760_l.jpg");
   background-position: center;
@@ -90,7 +89,7 @@ img {
 }
 
 
-
+/*SkillComponent*/
 .service {
   margin-top: 80px;
   margin-bottom: 60px;
