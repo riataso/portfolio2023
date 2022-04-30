@@ -3,7 +3,7 @@ import { Link }  from 'react-router-dom';
 
 const Header = () => {
     return (
-        <header>
+        <header classNale="conteiner">
             <div className="title">
                 <h3>Portfolio</h3>
             </div>
@@ -13,10 +13,10 @@ const Header = () => {
                        <Link to = "/">home</Link>
                     </li>
                     <li>
-                       <Link to = "/Skill">Skill</Link>
+                       <Link to = "/Skill">skill</Link>
                     </li>
                     <li>
-                        <Link to = "/Profile">Profile</Link>
+                        <Link to = "/Profile">profile</Link>
                     </li>
                     <li>
                         <a href="https://github.com/riataso" target="_blank ">github</a>

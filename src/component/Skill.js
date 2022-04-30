@@ -10,7 +10,7 @@ import PythonItem from '../Images/python.png';
 const Skill = () => {
     return (
         <div ClassName="confirm text-center">
-            <h1>スキル一覧</h1>
+            <h1 className='skilltitle'>スキル一覧</h1>
             <section id="askill">
                 <div className="text-center">
                     <h1 className="title">授業スキル</h1>
@@ -22,7 +22,7 @@ const Skill = () => {
                         </div>
                         <div className="col-md-4 services">
                             <img src={SwiftItem} />
-                            <h4>React</h4>
+                            <h4>Swift</h4>
                             <p>Swiftを半年学習していました</p>
                         </div>
                         <div className="col-md-4 services">
@@ -48,7 +48,7 @@ const Skill = () => {
                                 </div>
                                 <div className="col-md-4 services">
                                     <img src={PythonItem} />
-                                    <h4>Python/</h4>
+                                    <h4>Python</h4>
                                     <p>pythonを半年勉強していました</p>
                                 </div>
                             </div>
