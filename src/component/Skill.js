@@ -1,6 +1,6 @@
 import React from 'react'
 import JavaItem from '../Images/java.png';
-import SwiftItem from '../Images/swift.png';
+import SwiftItem from '../Images/swiftimg.png';
 import OracleItem from '../Images/oracle.png';
 import ReactItem from '../Images/react.png';
 import JsItem from '../Images/js.png';
@@ -9,7 +9,8 @@ import PythonItem from '../Images/python.png';
 
 const Skill = () => {
     return (
-        <div ClassName="confirm text-center">
+        <div className='abc'>
+        <div ClassName="confirm text-center" >
             <h1 className='skilltitle'>スキル一覧</h1>
             <section id="askill">
                 <div className="text-center">
@@ -57,7 +58,7 @@ const Skill = () => {
                 </div>
             </section>
         </div>
-
+        </div>
     )
 
 
