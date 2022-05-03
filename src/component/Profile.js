@@ -25,8 +25,8 @@ const Profile = () => {
               <p>2021 6月 基本情報技術者</p>
             </div>
           </div>
-        </div>
-        <div className="col-md-10 offset-md-1 pt-4">
+        
+        <div className='col-md-10 offset-md-1 pt-6 other'>
           <h5>趣味・特技</h5>
           <p>
           web技術に関する勉強(プログラミング)
@@ -34,6 +34,7 @@ const Profile = () => {
           <p>スポーツ(サッカー)</p>
         </div>
       </div>
+    </div>
   </section >
   )
 }
